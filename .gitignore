@@ -19,7 +19,7 @@ data/vectorstore/
 data/eval_report.json
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # IDE
 .vscode/
