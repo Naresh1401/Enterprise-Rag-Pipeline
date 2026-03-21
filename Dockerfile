@@ -13,7 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # App code
 COPY . .
+RUN chmod +x render_start.sh
 
-EXPOSE 8000
+EXPOSE 8501
 
-CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["bash", "render_start.sh"]
