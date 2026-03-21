@@ -1,5 +1,7 @@
 # Enterprise RAG with Evaluation Pipeline
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-818cf8?style=for-the-badge&logo=render)](https://enterprise-rag-pipeline.onrender.com) [![GitHub](https://img.shields.io/badge/GitHub-Naresh1401-181717?style=for-the-badge&logo=github)](https://github.com/Naresh1401/Enterprise-Rag-Pipeline)
+
 A production-grade Retrieval-Augmented Generation system with RAGAS evaluation, hallucination detection, and a full REST API + Streamlit UI.
 
 Built to solve a real enterprise problem: **employees can't find answers in internal documents**. This system indexes your PDFs, Word docs, HTML pages, and text files — then lets anyone ask natural language questions and get grounded, cited answers.

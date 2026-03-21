@@ -201,6 +201,32 @@ with st.sidebar:
     st.divider()
     st.caption("Built with OpenAI · FAISS · RAGAS")
 
+    st.divider()
+    st.markdown("""
+    <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;margin-top:8px;">
+        <div style="font-weight:700;font-size:1rem;color:#e2e8f0;margin-bottom:6px;">👨‍💻 Naresh</div>
+        <div style="font-size:0.8rem;color:#94a3b8;line-height:1.6;">
+            GenAI Engineer · Full-Stack ML<br>
+            <b style="color:#818cf8;">Skills:</b> LLMs · RAG · Fine-tuning · LangChain · FastAPI · Docker<br>
+            <b style="color:#818cf8;">Stack:</b> Python · OpenAI · FAISS · Qdrant · Streamlit
+        </div>
+        <div style="margin-top:10px;font-size:0.75rem;">
+            <a href="https://github.com/Naresh1401" style="color:#818cf8;text-decoration:none;">GitHub</a>
+        </div>
+        <details style="margin-top:10px;">
+            <summary style="color:#94a3b8;font-size:0.8rem;cursor:pointer;">🚀 More Projects</summary>
+            <div style="font-size:0.75rem;color:#94a3b8;margin-top:8px;line-height:1.8;">
+                <a href="https://llm-safety-guardrails.onrender.com" style="color:#7c3aed;text-decoration:none;">LLM Safety Guardrails</a><br>
+                <a href="https://text-to-sql-agent-2za9.onrender.com" style="color:#64ffda;text-decoration:none;">Text-to-SQL Agent</a><br>
+                <a href="https://intelligent-document-processing-qyo8.onrender.com" style="color:#a855f7;text-decoration:none;">Intelligent Doc Processing</a><br>
+                <a href="https://meeting-intelligent-platform.onrender.com" style="color:#38bdf8;text-decoration:none;">Meeting Intelligence</a><br>
+                <a href="https://ai-code-review-agent-bon1.onrender.com" style="color:#10b981;text-decoration:none;">AI Code Review Agent</a><br>
+                <a href="https://financial-llm-assistant.onrender.com" style="color:#f59e0b;text-decoration:none;">Financial LLM Assistant</a>
+            </div>
+        </details>
+    </div>
+    """, unsafe_allow_html=True)
+
 # ── Main Tabs ─────────────────────────────────────────────────────────────
 tab_chat, tab_ingest, tab_eval = st.tabs(["💬 Chat with Documents", "📁 Ingest & Index", "📊 RAGAS Evaluation"])
 
